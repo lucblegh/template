@@ -75,14 +75,14 @@ const bgPosY = computed(() => (-1 * y.value) / 40 + 'px');
     }
 
     h2 {
-      font-size: 6rem;
+      font-size: 5rem;
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
       font-weight: 900;
       opacity: 0.4;
       text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
       pointer-events: none;
-      line-height: 5.5rem;
+      line-height: 4.5rem;
 
       @include md {
         font-size: 9rem;
@@ -93,13 +93,13 @@ const bgPosY = computed(() => (-1 * y.value) / 40 + 'px');
 
     h3 {
       pointer-events: none;
-      font-size: 2.5rem;
+      font-size: 1.75rem;
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
       font-weight: 900;
       text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
       color: rgba(255, 255, 255, 0.6);
-      line-height: 2.5rem;
+      line-height: 1.75rem;
       background: radial-gradient(
         circle farthest-corner at center center,
         rgba(white, 0.6) 30%,
